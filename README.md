@@ -57,6 +57,7 @@ Make sure the following packages are installed:
 
 ```r
 install.packages(c("tidyverse", "patchwork", "qualtRics"))
+```
 
 # gen_bar_charts
 
