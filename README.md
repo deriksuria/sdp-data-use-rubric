@@ -1,4 +1,4 @@
-# mk_data_rubric_clean
+# 01_mk_data_rubric_clean
 
 **Author:** Derik Suria  
 **Last Updated:** 5/28/2025  
@@ -59,7 +59,7 @@ Make sure the following packages are installed:
 install.packages(c("tidyverse", "patchwork", "qualtRics"))
 ```
 
-# gen_bar_charts
+# 02_gen_bar_charts
 
 **Author:** Derik Suria  
 **Last Updated:** 5/28/2025  
