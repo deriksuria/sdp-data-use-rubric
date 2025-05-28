@@ -1,7 +1,7 @@
 # mk_data_rubric_clean
 
 **Author:** Derik Suria  
-**Last Updated:** `r format(Sys.time(), '%B %d, %Y')`  
+**Last Updated:** 5/28/2025
 **Purpose:** This project processes and summarizes survey response data from Qualtrics to support analysis of data use practices across organizations.
 
 ---
