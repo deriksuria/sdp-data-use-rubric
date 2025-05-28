@@ -62,7 +62,7 @@ install.packages(c("tidyverse", "patchwork", "qualtRics"))
 # gen_bar_charts
 
 **Author:** Derik Suria  
-**Last Updated:** `r format(Sys.time(), '%B %d, %Y')`  
+**Last Updated:** 5/28/2025  
 **Purpose:** This script automates the creation of stacked bar charts summarizing survey responses, grouped by **pillar** and **construct**, for each organization.
 
 ---
