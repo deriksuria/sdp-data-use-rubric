@@ -57,3 +57,58 @@ Make sure the following packages are installed:
 
 ```r
 install.packages(c("tidyverse", "patchwork", "qualtRics"))
+
+# gen_bar_charts
+
+**Author:** Derik Suria  
+**Last Updated:** `r format(Sys.time(), '%B %d, %Y')`  
+**Purpose:** This script automates the creation of stacked bar charts summarizing survey responses, grouped by **pillar** and **construct**, for each organization.
+
+---
+
+## 📊 What This Script Does
+
+### 🔹 Chart 1: Responses by Pillar (Per Organization)
+- Groups survey responses by **pillar** (e.g., Strategic Data Leadership).
+- Calculates the **percentage** of each response type.
+- Visualizes this in a **stacked bar chart** per organization.
+
+### 🔹 Chart 2: Responses by Construct/Indicator (Per Organization)
+- Further drills down to **constructs** (subsections under each pillar).
+- Builds a second set of stacked bar charts per construct for each organization.
+
+Both chart types are saved as PDF files.
+
+---
+
+## 📂 Inputs
+
+- `org_pillar_clean.csv`  
+  → Cleaned summary data at the pillar level.
+- `org_indicator_clean.csv`  
+  → Cleaned summary data at the construct (indicator) level.
+
+These should exist in the following directory: /output/summary_tables/
+
+---
+
+## 📤 Output
+
+Charts are saved as PDF files in:
+
+| Output Directory | File Description |
+|------------------|------------------|
+| `/output/pillar_charts/`     | One PDF per organization showing pillar-level results |
+| `/output/construct_charts/`  | One PDF per org+construct pair showing indicator-level results |
+
+---
+
+## 📦 Required R Packages
+
+Ensure the following libraries are installed:
+
+```r
+install.packages(c("tidyverse", "patchwork"))
+library(tidyverse)
+library(patchwork)
+
