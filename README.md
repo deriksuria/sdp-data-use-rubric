@@ -1,4 +1,3 @@
-# sdp-data-use-rubric
 # mk_data_rubric_clean
 
 **Author:** Derik Suria  
