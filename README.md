@@ -31,16 +31,15 @@ This R Markdown script performs the following:
 
 ---
 
-## 📂 Input Files
+## Input Files
 
 | File | Description |
 |------|-------------|
-| `qualtrics_download_may_7.csv` | Raw Qualtrics survey export (if not using API). |
 | `pillar_question_xw.xlsx` | Excel crosswalk that maps questions to pillars and indicators. |
 
 ---
 
-## 📤 Output Files
+## Output Files
 
 | File | Location |
 |------|----------|
@@ -51,7 +50,7 @@ This R Markdown script performs the following:
 
 ---
 
-## 📦 Required R Packages
+## Required R Packages
 
 Make sure the following packages are installed:
 
