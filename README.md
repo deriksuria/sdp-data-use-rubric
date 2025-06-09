@@ -82,9 +82,9 @@ install.packages(c("tidyverse", "patchwork", "qualtRics"))
 - Calculates the **percentage** of each response type.
 - Visualizes this in a **stacked bar chart** per organization.
 
-### 🔹 Chart Type 3: Responses by Construct/Indicator (Per Organization)
+### 🔹 Chart Type 3: Responses by Construct (Per Organization)
 - Further drills down to **constructs** (subsections under each pillar).
-- Builds a second set of stacked bar charts per construct for each organization.
+- Builds 5 stacked bar charts per construct for each organization.
 
 All chart types are saved as PDF files.
 
