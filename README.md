@@ -48,8 +48,8 @@ This R Markdown script performs the following:
 |------|----------|
 | `org_pillar_clean.csv` | `output/summary_tables/` |
 | `org_indicator_clean.csv` | `output/summary_tables/` |
-| `pillar_<org>.csv` | `output/pillar_tables/` |
-| `indicator_<org>.csv` | `output/indicator_tables/` |
+| `<org>.csv` | `output/pillar_tables/!overall/` |
+| `<pillar>.csv` | `output/pillar_tables/<org>/` |
 
 ---
 
