@@ -3,8 +3,7 @@
 **Author:** Derik Suria  
 **Last Updated:** 5/28/2025  
 **Purpose:** This project processes and summarizes survey response data from Qualtrics to support analysis of data use practices across organizations.  
-🛠️ **IMPORTANT**: All file paths that save outputs (e.g., `.csv`, `.pdf`) are hardcoded by default.
-Look for comments marked with `# ✏️ EDIT FILE PATH HERE` to update file destinations based on your system.
+🛠️ **IMPORTANT**: All file paths that save outputs (e.g., `.csv`, `.pdf`) are hardcoded by default. Update file destinations based on your system.
 
 
 ---
