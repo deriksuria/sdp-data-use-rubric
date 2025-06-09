@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 What This Script Does
+## What This Script Does
 
 This R Markdown script performs the following:
 
@@ -67,7 +67,7 @@ install.packages(c("tidyverse", "patchwork", "qualtRics"))
 
 ---
 
-## 📊 What This Script Does
+## What This Script Does
 
 ### 🔹 Chart 1: Responses by Pillar (Per Organization)
 - Groups survey responses by **pillar** (e.g., Strategic Data Leadership).
@@ -82,7 +82,7 @@ Both chart types are saved as PDF files.
 
 ---
 
-## 📂 Inputs
+## Inputs
 
 - `org_pillar_clean.csv`  
   → Cleaned summary data at the pillar level.
@@ -93,7 +93,7 @@ These should exist in the following directory: /output/summary_tables/
 
 ---
 
-## 📤 Output
+## Output
 
 Charts are saved as PDF files in:
 
@@ -104,7 +104,7 @@ Charts are saved as PDF files in:
 
 ---
 
-## 📦 Required R Packages
+## Required R Packages
 
 Ensure the following libraries are installed:
 
