@@ -109,7 +109,6 @@ Charts are saved as PDF files in:
 | `/output/summary_charts/`     | One PDF including all organizations showing pillar-level results (like slide 7) |
 | `/output/pillar_charts/overall`     | Five PDFs per organization showing pillar-level results (like slide 8) |
 | `/output/pillar_charts/`     | One PDF per organization showing pillar-level results |
-| `/output/construct_charts/`  | One PDF per org+construct pair showing indicator-level results |
 
 ---
 
