@@ -30,7 +30,7 @@ This R Markdown script performs the following:
 5. **Exports Data**  
    - Saves clean summary tables to CSV files.
    - Creates one summary CSV per organization for both pillar and indicator data.
-   - **🛠️ Tip:** All file paths used for saving data (e.g., `output/summary_tables/`) can be edited—look for `# ✏️ EDIT FILE PATH HERE` in the script.
+   - **🛠️ Tip:** All file paths used for saving data (e.g., `output/summary_tables/`) can be edited.
 
 ---
 
