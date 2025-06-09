@@ -1,7 +1,7 @@
 # 01_mk_data_rubric_clean
 
 **Author:** Derik Suria  
-**Last Updated:** 5/28/2025  
+**Last Updated:** 6/9/2025  
 **Purpose:** This project processes and summarizes survey response data from Qualtrics to support analysis of data use practices across organizations.  
 🛠️ **IMPORTANT**: All file paths that save outputs (e.g., `.csv`, `.pdf`) are hardcoded by default. Command-F **"EDIT FILEPATH HERE"** to update file destinations based on your computer.
 
