@@ -3,7 +3,7 @@
 **Author:** Derik Suria  
 **Last Updated:** 5/28/2025  
 **Purpose:** This project processes and summarizes survey response data from Qualtrics to support analysis of data use practices across organizations.  
-🛠️ **IMPORTANT**: All file paths that save outputs (e.g., `.csv`, `.pdf`) are hardcoded by default. Update file destinations based on your system.
+🛠️ **IMPORTANT**: All file paths that save outputs (e.g., `.csv`, `.pdf`) are hardcoded by default. Command-F **"EDIT FILEPATH HERE"** to update file destinations based on your computer.
 
 
 ---
@@ -107,7 +107,7 @@ Charts are saved as PDF files in:
 | Output Directory | File Description |
 |------------------|------------------|
 | `/output/summary_charts/`     | One PDF including all organizations showing pillar-level results (like slide 7) |
-| `/output/pillar_charts/overall`     | Five PDFs per organization showing pillar-level results (like slide 8) |
+| `/output/pillar_charts/!overall/<org>`     | Five PDFs per organization showing pillar-level results (like slide 8) |
 | `/output/pillar_charts/`     | One PDF per organization showing pillar-level results |
 
 ---
