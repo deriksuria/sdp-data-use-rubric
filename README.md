@@ -28,6 +28,7 @@ This R Markdown script performs the following:
 5. **Exports Data**  
    - Saves clean summary tables to CSV files.
    - Creates one summary CSV per organization for both pillar and indicator data.
+   - **🛠️ Tip:** All file paths used for saving data (e.g., `output/summary_tables/`) can be edited—look for `# ✏️ EDIT FILE PATH HERE` in the script.
 
 ---
 
@@ -98,6 +99,8 @@ Charts are saved as PDF files in:
 
 | Output Directory | File Description |
 |------------------|------------------|
+| `/output/summary_charts/`     | One PDF including all organizations showing pillar-level results (like slide 7) |
+| `/output/pillar_charts/overall`     | Five PDFs per organization showing pillar-level results (like slide 8) |
 | `/output/pillar_charts/`     | One PDF per organization showing pillar-level results |
 | `/output/construct_charts/`  | One PDF per org+construct pair showing indicator-level results |
 
