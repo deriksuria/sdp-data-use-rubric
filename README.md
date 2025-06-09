@@ -72,16 +72,21 @@ install.packages(c("tidyverse", "patchwork", "qualtRics"))
 
 ## What This Script Does
 
-### 🔹 Chart 1: Responses by Pillar (Per Organization)
+### 🔹 Chart Type 1: Responses by Pillar (All Organizations)
+- Groups survey responses by **pillar** (e.g., Strategic Data Leadership).
+- Calculates the **percentage** of each response type.
+- Visualizes this in a **stacked bar chart** for all organizations.
+
+### 🔹 Chart Type 2: Responses by Pillar (Per Organization)
 - Groups survey responses by **pillar** (e.g., Strategic Data Leadership).
 - Calculates the **percentage** of each response type.
 - Visualizes this in a **stacked bar chart** per organization.
 
-### 🔹 Chart 2: Responses by Construct/Indicator (Per Organization)
+### 🔹 Chart Type 3: Responses by Construct/Indicator (Per Organization)
 - Further drills down to **constructs** (subsections under each pillar).
 - Builds a second set of stacked bar charts per construct for each organization.
 
-Both chart types are saved as PDF files.
+All chart types are saved as PDF files.
 
 ---
 
